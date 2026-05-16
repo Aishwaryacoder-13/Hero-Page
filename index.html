@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Hero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1><span id="typing"></span></h1>
+    <h2>MySite</h2>
+    <button id="toggleMode">🌙</button>
+  </nav>
+
+  <section class="hero">
+    <section class="stats">
+  <h2><span id="count">0</span>+ Users</h2>
+</section>
+    <div class="hero-content hidden">
+      <h1 id="title">Build Something Amazing 🚀</h1>
+      <p>Interactive responsive hero section using Flexbox.</p>
+      <button onclick="showMessage()">Click Me</button>
+      <p id="message"></p>
+    </div>
+
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/400" alt="Hero Image">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
